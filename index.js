@@ -12,3 +12,26 @@ console.log(null);
 console.log(true);
 console.log(false);
 */
+
+//variable 
+//имя переменной начинается с буквы, или _, или $. Это латиница, которая пишется без проблеов. Цифры в середине, конце, но не в начале. Все значения регистрозависимые. Например user и User это две разные переменные. Пишем в стиле camelCase
+
+// //создание переменной
+// let num1;
+// //инициализация
+// num1 = 33;
+// //логирование
+// console.log('num1 =',num1);
+
+// let num2 = 28;
+
+// num1 = 44
+// console.log('num1 = ',num1);
+
+// const num3 = 77;
+
+// {
+//     let num3 = 'qwerty';
+//     console.log('num2 = ',num2);
+//     console.log('num3 = ',num3);
+// }
