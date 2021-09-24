@@ -35,3 +35,16 @@ console.log(false);
 //     console.log('num2 = ',num2);
 //     console.log('num3 = ',num3);
 // }
+
+
+let num = 10;
+console.log(num, typeof num);
+
+let str = 'ten';
+console.log(num, typeof str);
+
+let varNull = null;
+console.log(varNull, typeof varNull);
+
+let varUndefined = undefined;
+console.log(varUndefined, typeof varUndefined);
