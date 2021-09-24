@@ -37,14 +37,38 @@ console.log(false);
 // }
 
 
-let num = 10;
-console.log(num, typeof num);
+// let num = 10;
+// console.log(num, typeof num);
 
-let str = 'ten';
-console.log(num, typeof str);
+// let str = 'ten';
+// console.log(num, typeof str);
 
-let varNull = null;
-console.log(varNull, typeof varNull);
+// let varNull = null;
+// console.log(varNull, typeof varNull);
 
-let varUndefined = undefined;
-console.log(varUndefined, typeof varUndefined);
+// let varUndefined = undefined;
+// console.log(varUndefined, typeof varUndefined);
+
+/*
+false
+0 +0 -0
+'' // empty string
+NaN
+null
+undefined
+*/
+
+// let condition = true;
+// if(condition) {
+//     console.log(condition);
+// }
+
+// let condition = false;
+// if(condition) {
+//     console.log(condition);
+// }
+
+// let condition = 0.0001;
+// if(condition) {
+//     console.log(condition);
+// }
