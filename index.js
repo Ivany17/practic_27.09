@@ -101,6 +101,28 @@ undefined
 
 // console.log(+number);
 
-let num1 = 10;
+// let num1 = 10;
 
-console.log(num1<=10);
+// console.log(num1<=10);
+
+/* Logic multiction AND && */
+// Return the last truth or the first false;
+
+// 1*0=0 0*1=0 0*0=0 1*1=1
+
+/* Logic addiction OR || */
+// Return or the first truth, or the last false;
+
+// 1+0=1 0+1=1 0+0=0 1+1=2
+
+// let cound ='' || 0;
+// console.log(cond);
+
+// let number = 21;
+
+// let min = 10;
+// let max = 20;
+
+// if(number<min || number>max) {
+//     console.log('You win', number)
+// }
