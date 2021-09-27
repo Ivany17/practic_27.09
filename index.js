@@ -126,3 +126,18 @@ undefined
 // if(number<min || number>max) {
 //     console.log('You win', number)
 // }
+
+// let number = 12;
+
+// number += 10;
+
+// number %= 5;
+
+// number **= 3;
+
+// number /= number;
+
+// number *= 4;
+
+// console.log(number);
+
