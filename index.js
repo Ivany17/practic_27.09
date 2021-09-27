@@ -78,3 +78,21 @@ undefined
 // let messageUser = 'Masha tells: \u2721\n\t\'Hello\''
 
 // console.log(messageUser);
+
+// let iter = 5;
+
+// iter++;
+
+// console.log(iter++);
+
+// console.log(iter);
+
+// let a = 1;
+
+// let b = 2;
+
+// let c = a++;
+
+// console.log(c);
+// console.log(a);
+// console.log(b);
