@@ -75,4 +75,4 @@ undefined
 
 // alert (77);
 
-console.log(12%5);
+// console.log(12%5);
