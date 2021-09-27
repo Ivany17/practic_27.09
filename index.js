@@ -73,6 +73,8 @@ undefined
 //     console.log(condition);
 // }
 
-// alert (77);
-
 // console.log(12%5);
+
+// let messageUser = 'Masha tells: \u2721\n\t\'Hello\''
+
+// console.log(messageUser);
