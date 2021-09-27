@@ -72,3 +72,7 @@ undefined
 // if(condition) {
 //     console.log(condition);
 // }
+
+// alert (77);
+
+console.log(12%5);
