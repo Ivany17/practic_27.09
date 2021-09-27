@@ -96,3 +96,8 @@ undefined
 // console.log(c);
 // console.log(a);
 // console.log(b);
+
+// let number = '44';
+
+// console.log(+number);
+
