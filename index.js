@@ -141,36 +141,41 @@ undefined
 
 // console.log(number);
 
-let number1 = 45;
-let number2 = 12;
-console.log(number1+number2);
-console.log(number1-number2);
-console.log(number1*number2);
-console.log(number1/number2);
-console.log(number1%number2);
+// let number1 = 45;
+// let number2 = 12;
+// console.log(number1+number2);
+// console.log(number1-number2);
+// console.log(number1*number2);
+// console.log(number1/number2);
+// console.log(number1%number2);
 
-let num = 101;
-let boolean = true;
-let language = 'Java';
-let name = 'Elon Musk';
-let emptyValue = null;
+// let num = 101;
+// let boolean = true;
+// let language = 'Java';
+// let name = 'Elon Musk';
+// let emptyValue = null;
 
-let number3 = 23;
+// let number3 = 23;
 
-number3 += 11;
-console.log(number3);
+// number3 += 11;
+// console.log(number3);
 
-number3 /= 2;
-console.log(number3);
+// number3 /= 2;
+// console.log(number3);
 
-number3--;
-console.log(number3);
+// number3--;
+// console.log(number3);
 
-number3 *= 11;
-console.log(number3);
+// number3 *= 11;
+// console.log(number3);
 
-number3++;
-console.log(number3);
+// number3++;
+// console.log(number3);
 
-number3 %= 5;
-console.log(number3);
+// number3 %= 5;
+// console.log(number3);
+
+let userInput = prompt ('Enter number: ');
+console.log(userInput);
+console.log(isNaN(Number(userInput)));
+console.log(typeof Number(userInput));
