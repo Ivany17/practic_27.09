@@ -192,27 +192,42 @@ undefined
 // }
 
 
-const myFirstFunction = function () {
-    console.log('text in function');
-}
+// const myFirstFunction = function () { 
+//     console.log('text in function');
+// }
 
-myFirstFunction();
-console.log(myFirstFunction);
+// myFirstFunction();
+// console.log(myFirstFunction);
 
 
-const getSumTwoNums = function () {
-    let userInput1 = promt('enter first number');
-    let userInput2 = promt('enter second number');
+// const getSumTwoNums = function () { BAD FUNCTION
+//     let userInput1 = promt('enter first number');
+//     let userInput2 = promt('enter second number');
         
-    let checkEmpty = userInput1 === '' || userInput1 === null || userInput2 === '' || userInput2 === null;
+//     let checkEmpty = userInput1 === '' || userInput1 === null || userInput2 === '' || userInput2 === null;
 
-    let sum = Number(userInput1) + Number(userInput2);
+//     let sum = Number(userInput1) + Number(userInput2);
 
-    if(checkEmpty || isNaN(sum)){
-        console.log('error');
-    }else{
-        console.log(userInput1,'+',userInput2,'=',sum)
-    }
+//     if(checkEmpty || isNaN(sum)){
+//         console.log('error');
+//     }else{
+//         console.log(userInput1,'+',userInput2,'=',sum)
+//     }
+// }
+
+// getSumTwoNums(); BAD CODE
+
+
+/**
+ * 
+ * @param {any} num1 
+ * @param {any} num2 
+ * @returns {boolean | number}
+ */
+const getSumTwoNums = function (num1, num2) {
+    /*let sum = num1 + num2;
+    return sum;*/
+    return num1 + num2;
 }
 
 getSumTwoNums();
