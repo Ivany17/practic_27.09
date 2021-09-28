@@ -184,11 +184,35 @@ undefined
 // console.log(typeof Number(userInput));
 
 
-let userInput = prompt ('Enter number: ');
+// let isNotNumber = userInput === '' || userInput === null || isNaN(Number(userInput));
+// if(isNotNumber){
+//     console.log('error');
+// }else {
+//     console.log('well done');
+// }
 
-let isNotNumber = userInput === '' || userInput === null || isNaN(Number(userInput));
-if(isNotNumber){
-    console.log('error');
-}else {
-    console.log('well done');
+
+const myFirstFunction = function () {
+    console.log('text in function');
 }
+
+myFirstFunction();
+console.log(myFirstFunction);
+
+
+const getSumTwoNums = function () {
+    let userInput1 = promt('enter first number');
+    let userInput2 = promt('enter second number');
+        
+    let checkEmpty = userInput1 === '' || userInput1 === null || userInput2 === '' || userInput2 === null;
+
+    let sum = Number(userInput1) + Number(userInput2);
+
+    if(checkEmpty || isNaN(sum)){
+        console.log('error');
+    }else{
+        console.log(userInput1,'+',userInput2,'=',sum)
+    }
+}
+
+getSumTwoNums();
