@@ -218,16 +218,32 @@ undefined
 // getSumTwoNums(); BAD CODE
 
 
-/**
- * 
- * @param {any} num1 
- * @param {any} num2 
- * @returns {boolean | number}
- */
-const getSumTwoNums = function (num1, num2) {
-    /*let sum = num1 + num2;
-    return sum;*/
-    return num1 + num2;
-}
+// /**
+//  * 
+//  * @param {any} num1 
+//  * @param {any} num2 
+//  * @returns {boolean | number}
+//  */
+// const getSumTwoNums = function (num1, num2) {
+//     /*let sum = num1 + num2;
+//     return sum;*/
+//     return num1 + num2;
+// }
 
-getSumTwoNums();
+// getSumTwoNums();
+    
+    const returnMaxValueTwo = function (val1, val2){
+        if(typeof val1 === typeof val2){
+            if(val1 > val2){
+                return val1;
+            }else{
+                return val2;
+            }
+        }
+        return null
+    }
+
+    returnMaxValueTwo(12, '12'); //null
+    returnMaxValueTwo(12, undefined); //null
+    returnMaxValueTwo(12, 45); //45
+    returnMaxValueTwo(12, 12); //12
