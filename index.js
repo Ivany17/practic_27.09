@@ -141,6 +141,8 @@ undefined
 
 // console.log(number);
 
+
+
 // let number1 = 45;
 // let number2 = 12;
 // console.log(number1+number2);
@@ -175,7 +177,18 @@ undefined
 // number3 %= 5;
 // console.log(number3);
 
+
+// let userInput = prompt ('Enter number: ');
+// console.log(userInput);
+// console.log(isNaN(Number(userInput)));
+// console.log(typeof Number(userInput));
+
+
 let userInput = prompt ('Enter number: ');
-console.log(userInput);
-console.log(isNaN(Number(userInput)));
-console.log(typeof Number(userInput));
+
+let isNotNumber = userInput === '' || userInput === null || isNaN(Number(userInput));
+if(isNotNumber){
+    console.log('error');
+}else {
+    console.log('well done');
+}
